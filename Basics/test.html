@@ -1,45 +1,36 @@
-<!--这是我写的第一个网页，写给你， 我的亲爱的。-->
-<!--<!DOCTYPE html>-->
-<!--<html>-->
-<!--<head>-->
-<!--	<meta charset="utf-8" />-->
-<!--	<title>我写的第一个网页 哈哈哈</title>-->
-<!--	<style type="text/css">-->
-<!--		body{-->
-<!--			background-image: url(./images/9.jpg);-->
-<!--			background-size: 100% 100% ;-->
 
-<!--		}-->
-<!--		html{-->
-<!--			height: 100%;-->
-<!--		}-->
-<!--		p{-->
-<!--			letter-spacing :3px;-->
-<!--			font-size: 25px;-->
-<!--			color: white;-->
-<!--		}-->
-<!--		/*opacity 为不透明度  @keyframes为css动画*/-->
-<!--		@keyframes myfirst{-->
-<!--			from{opacity: 0;}-->
-<!--			to{opacity: 100;}-->
-<!--		}-->
-<!--		h1,p{-->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script>
+        var age ,age2;
+        age2=Math.random()
+        document.write(age2)
+        age=prompt("请输入年龄");
+        if(isNaN(age)){
+            alert("妈的给我输入数字")
 
-<!--			animation: myfirst 2s infinite;-->
-<!--		}-->
-<!--		div{-->
-<!--			text-align: center;-->
-<!--		}-->
-<!--	</style>-->
-<!--</head>-->
-<!--<body >-->
-<!--<video src="wav/喜欢你.mp3"   autoplay="autoplay" data-setup="{'autoplay':true}" ></video>-->
-<!--<h1 align="center">老杜，请收好我对你的爱</h1>-->
-<!--<div>-->
-<!--<p>I love three things in this world</p>-->
-<!--<p>Sun,moon and you</p>-->
-<!--<p>Sun for moring，  Moon for nigth，</p>-->
-<!--<p>You forever。</p>-->
-<!--</div>-->
-<!--</body>-->
-<!--</html>-->
+        }
+        else {
+
+            if(age>=18){
+                if(age>150){
+                    alert("输入的有点大")
+                }
+                else {
+                    alert("成年啦")
+                }
+            }
+            else {
+                alert("还小呢")
+            }
+        }
+
+
+    </script>
+</head>
+<body>
+
+</body>
+</html>

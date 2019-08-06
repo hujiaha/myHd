@@ -1,0 +1,82 @@
+
+                      body{
+                          background-image: url(./../images/520.jpg);
+                          background-size: 100% 120% ;
+
+                      }
+html{
+    height: 100%;
+}
+div{
+    text-align: center;
+    letter-spacing :3px;
+    font-size: 25px;
+    color: white;
+}
+/*opacity 为不透明度  @keyframes为css动画*/
+
+#end{
+    font-size: 45px;.
+
+}
+
+p{ text-align: center;
+
+}
+#qqq{ font-size: 30px}
+
+
+@keyframes myone {
+    0%{opacity: 100}
+    25%{opacity: 0}
+    50%{opacity:0}
+    75%{opacity: 0}
+    100%{opacity: 100}
+}
+@keyframes mytwo {
+    0%{opacity: 0}
+    25%{opacity: 100}
+    50%{opacity:0}
+    75%{opacity: 0}
+    100%{opacity: 100}
+}
+@keyframes mythree {
+    0%{opacity: 0}
+    25%{opacity: 0}
+    50%{opacity:100}
+    75%{opacity: 0}
+    100%{opacity: 100}
+}
+@keyframes myfour {
+    0%{opacity: 0}
+    25%{opacity: 0}
+    50%{opacity:0}
+    75%{opacity: 100}
+    100%{opacity: 100}
+}
+@keyframes myfive {
+    0%{opacity: 100}
+    25%{opacity: 0}
+    50%{opacity:0}
+    75%{opacity: 0}
+    100%{opacity: 100}
+}
+#one{
+    animation: myone 5s infinite;
+}
+#two{
+    animation: mytwo 5s infinite;
+}
+#three{
+    animation: mythree 5s infinite;
+}
+#four{
+    animation: myfour 5s infinite;
+}
+#five{
+
+    animation: myfive 5s infinite;
+}
+
+
+
